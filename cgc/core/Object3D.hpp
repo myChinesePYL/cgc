@@ -1,7 +1,15 @@
 #pragma once
 
+#include <string>
 namespace cgc {
   namespace core {
-    void o3d();
+    class Object3D {
+      public:
+        Object3D();
+      private:
+        std::string name = "";
+        
+        ~Object3D();
+    };
   }
 }

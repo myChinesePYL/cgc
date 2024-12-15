@@ -2,6 +2,9 @@
 
 namespace cgc {
   namespace core {
-    void o3d() {}
+    Object3D::Object3D() {
+      //
+    }
+    Object3D::~Object3D() {}
   }
 }
